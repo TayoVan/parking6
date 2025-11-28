@@ -34,8 +34,4 @@ public class Driver extends Employee {
         return 0;
     }
 
-    @Override
-    public void performDuty(Object context) {
-        System.out.println("Driver " + name + " заїджає");
-    }
 }
