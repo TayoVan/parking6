@@ -13,7 +13,7 @@ public abstract class Employee {
     public abstract String getPosition();
     public abstract String getInfo();
 
-    public abstract void performDuty(Object context);
+    public abstract void performDuty();
 
     public abstract double getSalary();
 }
