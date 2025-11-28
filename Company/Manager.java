@@ -30,10 +30,6 @@ public class Manager extends Employee {
         return salary;
     }
 
-    @Override
-    public void performDuty(Object context) {
-        System.out.println("Manager на спец місії");
-    }
 
     public void performDuty(ParkingLot lot) {
         System.out.println("Manager провіряє паркінг чи всі на своїх:");
