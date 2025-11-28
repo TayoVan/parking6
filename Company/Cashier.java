@@ -30,9 +30,6 @@ public class Cashier extends Employee {
         return salary;
     }
 
-    @Override
-    public void performDuty(Object context) {
-        System.out.println("Cashier на сіоїй мусії.");
     }
 
     public void performDuty(ParkingTicket ticket) {
@@ -45,4 +42,5 @@ public class Cashier extends Employee {
         this.performDuty(ticket);  
         return ticket.isPaid();
     }
+
 }
